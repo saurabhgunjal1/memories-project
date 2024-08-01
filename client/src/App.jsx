@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { AppBar, Typography, Grow, Grid, Container } from "@mui/material";
+import { AppBar, Typography, Grow, Grid, Container } from "@material-ui/core";
 import { getPosts } from "./actions/posts";
 import memoriesimg from "../src/images/memories.png";
 import Form from "./components/Form/Form";

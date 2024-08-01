@@ -9,9 +9,9 @@ import {
   Typography,
 } from "@material-ui/core";
 import moment from "moment";
-import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
-import DeleteIcon from "@mui/icons-material/Delete";
+import ThumbUpAltIcon from "@material-ui/icons/ThumbUpAlt";
+import DeleteIcon from "@material-ui/icons/Delete";
+import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { useDispatch } from "react-redux";
 import { deletePost, likePost } from "../../../actions/posts.js";
 
